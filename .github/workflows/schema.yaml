@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: |
-          docker run --rm -it \
+          docker run --rm \
           -e DOCKER_HOST_PATH=/home/runner/work/blueprints/blueprints \
           --network=host \
           -v /home/runner/work/blueprints/blueprints:/workspace \
