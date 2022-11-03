@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: "make docker_test_lint"
+    - run: "make docker_check_lint"
